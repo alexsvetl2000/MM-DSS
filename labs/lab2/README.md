@@ -5,12 +5,16 @@
 ###Использованный индикатор : 
 Полосы Боллинджера (Bollinger Bands)
 Средняя полоса (Middle Band): Это простое скользящее среднее (SMA) цен закрытия за определенный период времени. Обычно это 20-периодное SMA.
-$'MiddleBand(MA)=SMA(Close)'$
+
+$MiddleBand(MA)=SMA(Close)$
+
 Верхняя полоса (Upper Band): Это сумма 20-периодного SMA и двух стандартных отклонений (SD) цен закрытия.
-$'UpperBand(UB)=SMA(Close)+2*SD(Close)'$
+
+$UpperBand(UB)=SMA(Close)+2*SD(Close)$
 
 Нижняя полоса (Lower Band): Это разница между 20-периодным SMA и двумя стандартными отклонениями цен закрытия.
-$'LowerBand(LB)=SMA(Close)−2*SD(Close)'$
+
+$LowerBand(LB)=SMA(Close)−2*SD(Close)$
 
 Схема выполнения работы :
 
